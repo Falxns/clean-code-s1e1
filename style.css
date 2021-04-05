@@ -28,7 +28,6 @@ body {
   margin: 0 auto 0;
 }
 .task {
-  width: 56%;
   display: inline-block;
 }
 ul {
@@ -107,15 +106,14 @@ li > * {
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
+
 li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-li >    input[type="text"] {
-  width: 226px;
-}
+
 li > button.delete:hover {
   color: #cf2323;
 }
@@ -141,7 +139,6 @@ ul li input[type=text] {
 
 ul li.editMode input[type=text] {
   display: inline-block;
-  width: 224px;
 }
 
 ul li.editMode label {
